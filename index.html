@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A modern Apple-inspired Instagram request page." />
+  <title>May I Have Your Instagram?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background" aria-hidden="true">
+    <span class="orb orb-one"></span>
+    <span class="orb orb-two"></span>
+    <span class="orb orb-three"></span>
+  </div>
+
+  <main class="page-shell">
+    <section class="hero-card" aria-labelledby="main-title">
+      <p class="eyebrow">A simple question</p>
+      <h1 id="main-title">May I have your Instagram?</h1>
+      <p class="subtitle">
+        One tiny answer. One beautiful click. No pressure — except the No button may disagree.
+      </p>
+
+      <div class="actions" aria-label="Answer buttons">
+        <button class="btn btn-primary" id="yesBtn" type="button">Yes</button>
+        <button class="btn btn-secondary" id="noBtn" type="button">No</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close-btn" id="closeModal" type="button" aria-label="Close popup">×</button>
+      <p class="modal-kicker">Perfect choice</p>
+      <h2 id="modal-title">Here is my Instagram</h2>
+      <p class="modal-text">
+        Tap the button below to open my profile and follow me on Instagram.
+      </p>
+      <a class="instagram-link" id="instagramLink" href="https://www.instagram.com/miqquelitto/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer">
+        Open Instagram
+      </a>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <p>© 2026 Mikail Aliyev. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
